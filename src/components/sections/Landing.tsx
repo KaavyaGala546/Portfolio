@@ -1,6 +1,5 @@
 import { PropsWithChildren } from "react";
 import "./Landing.css";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Landing = ({ children }: PropsWithChildren) => {
   return (

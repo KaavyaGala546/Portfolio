@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Loading.css";
-import gsap from "gsap";
 import { useLoading } from "../../context/LoadingProvider";
 
 
