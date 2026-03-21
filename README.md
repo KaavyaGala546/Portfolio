@@ -1,117 +1,126 @@
-<div align="center">
-  <br />
-  <h1>✨ Kaavya Gala | Full-Stack Software & AI Engineer ✨</h1>
-  
-  <p>
-    An interactive, 3D-accelerated, modern web portfolio engineered for supreme performance and immersion.
-  </p>
+# Portfolio Website
 
-  <p>
-    <a href="#features"><img src="https://img.shields.io/badge/Features-Explore-4CAF50?style=for-the-badge&logoColor=white" alt="Features"></a>
-    <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-View-007ACC?style=for-the-badge&logoColor=white" alt="Tech Stack"></a>
-    <a href="#installation"><img src="https://img.shields.io/badge/Installation-Guide-FF4B4B?style=for-the-badge&logoColor=white" alt="Installation"></a>
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/Vite-B73BFE?style=flat-square&logo=vite&logoColor=FFD62E" />
-  </p>
-</div>
+An interactive portfolio built with React, TypeScript, Three.js, and GSAP, focused on immersive user experience, 3D interaction, and modern frontend architecture.
 
 ---
 
-## 🚀 Overview
+## 🚀 Live Demo
 
-Welcome to my 2026 digital portfolio repository! This project goes beyond traditional web design by merging **cutting-edge 3D physics**, **complex scroll-driven animations**, and a **modular React architecture** into a single seamless experience.
+👉 **Live Portfolio:** https://portfolio-swart-gamma-21.vercel.app
 
-Built with performance in mind, the site leverages **React Three Fiber** for hardware-accelerated 3D elements and **GSAP** for buttery-smooth DOM animations.
-
----
-
-## 🌟 Key Features
-
-* 🪐 **Physics-Based Skill Ecosystem**: A complete 3D physics simulation utilizing `@react-three/rapier`. Over 40 individual technical skill spheres react in real-time to cursor momentum, gravity, and collisions.
-* 📁 **MacOS Interactive Folders**: Real-world operating system mechanics translated into pure HTML/CSS. Features a fully custom CSS-art MacOS folder that naturally fans out project files on hover.
-* ⚡ **Absolute Scroll Smoothing**: Engineered using GSAP's premium ScrollSmoother to completely hijack native scrollbars, providing a weightless, cinematic navigation experience across all viewports.
-* 🎨 **Glassmorphism & Custom Optics**: Heavy implementation of modern web aesthetics including backdrop-filters, custom glowing SVG cursors, and drop-shadow gradients to push browser capabilities.
-* 🏗️ **Enterprise Component Colocation**: The codebase natively co-locates component styles with their logical files, enforcing strict modularity and easy scalability.
+*A modern interactive portfolio featuring 3D visuals, animations, and scalable frontend architecture.*
 
 ---
 
-## 🛠️ Tech Stack Architecture
+## 📌 Overview
 
-### **Core Framework**
-- [React (v18)](https://reactjs.org/) - UI Library
-- [TypeScript](https://www.typescriptlang.org/) - Static Typing
-- [Vite](https://vitejs.dev/) - Lightning-fast Build Tool
+This portfolio showcases my work in software development, AI/ML, and full-stack engineering through an interactive and visually engaging interface. It combines clean system architecture with modern frontend techniques such as animation, 3D rendering, and smooth transitions.
 
-### **3D & Physics**
-- [Three.js](https://threejs.org/) - WebGL Abstraction
-- [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/) - React renderer for Three.js
-- [@react-three/rapier](https://github.com/pmndrs/react-three-rapier) - 3D Physics Engine
-- [@react-three/postprocessing](https://docs.pmnd.rs/react-postprocessing/) - Visual post-FX (Ambient Occlusion)
-
-### **Animations & Styling**
-- [GSAP](https://greensock.com/gsap/) - Professional Web Animation
-- Vanilla CSS3 - Utilizing CSS Variables, Grid, Flexbox, and complex CSS properties.
+The project demonstrates how complex interactions can be implemented efficiently while maintaining performance and scalability in a production-ready frontend system.
 
 ---
 
-## 📂 Repository Structure
+## ✨ Key Features
 
-The project has been professionally structured to support future feature expansion:
-
-```text
-src/
-├── components/
-│   ├── sections/      # Primary page regions (About, Work, Landing, WhatIDo)
-│   ├── ui/            # Reusable sub-components (Navbar, SocialIcons, Cursor)
-│   └── utils/         # Helper functions and text splitters
-├── context/           # App-wide global state management
-├── assets/            # Static files, models, and HDR environments
-└── App.tsx            # Main application root
-```
+* Interactive 3D components using Three.js and React Three Fiber
+* Physics-based skill visualization using Rapier
+* Scroll-based animations and transitions powered by GSAP
+* Modular and scalable React + TypeScript architecture
+* Smooth navigation and responsive UI design
+* Fully deployed and performance-optimized application
 
 ---
 
-## ⚙️ Local Development & Installation
+## 🛠️ Tech Stack
 
-Want to explore the codebase or run the simulation locally? Follow these steps:
+### Core
 
-**1. Clone the repository**
+* React 18
+* TypeScript
+* Vite
+
+### 3D & Animation
+
+* Three.js
+* React Three Fiber
+* @react-three/rapier
+* GSAP
+* @react-three/postprocessing
+
+### Styling & UI
+
+* Tailwind CSS
+
+---
+
+## ⚙️ Architecture
+
+The application follows a modular, component-driven structure:
+
+* **Sections** — Independent UI sections (About, Work, Contact)
+* **Components** — Reusable UI and animation components
+* **Context** — Global state and interaction handling
+* **Assets** — 3D models, textures, and static resources
+* **Utils** — Helper functions and configuration
+
+This structure ensures scalability, maintainability, and clear separation of concerns.
+
+---
+
+## ▶️ Getting Started
+
 ```bash
-git clone https://github.com/KaavyaGala546/[repository-name].git
-cd [repository-name]
-```
+git clone https://github.com/KaavyaGala546/Portfolio.git
+cd Portfolio
 
-**2. Install dependencies**
-```bash
 npm install
-```
-
-**3. Fire up the development server**
-```bash
 npm run dev
 ```
 
-**4. View the App**
-Open your preferred browser to `http://localhost:5173`. 
+---
+
+## 📁 Project Structure
+
+```
+Portfolio/
+│
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── sections/       # Page sections (About, Work, Contact)
+│   ├── context/        # Global state management
+│   ├── assets/         # Models, textures, images
+│   └── utils/          # Utility functions
+│
+├── public/
+├── package.json
+└── vite.config.ts
+```
 
 ---
 
-## 📫 Connect With Me
+## 🖼️ Screenshots
 
-If you're inspired by the code, have questions about the 3D physics implementation, or want to collaborate on AI and Full-Stack projects, feel free to reach out!
+*Add screenshots or demo GIF here*
 
-- **GitHub:** [@KaavyaGala546](https://github.com/KaavyaGala546)
-- **Email:** kaavyagala@gmail.com
-- **LinkedIn:** [Kaavya Gala](https://www.linkedin.com/in/kaavya-gala-46602221a/)
+---
 
-<br/>
+## 🚀 Future Improvements
 
-<div align="center">
-  <sub>Built with ❤️ by Kaavya Gala. Copyright © 2026.</sub>
-</div>
+* Performance optimization for complex 3D scenes
+* Additional interactive components and animations
+* Improved accessibility and cross-device support
+* Enhanced visual effects and transitions
+
+---
+
+## 👤 Author
+
+**Kaavya Gala**
+
+* GitHub: https://github.com/KaavyaGala546
+
+---
+
+## ⭐ Notes
+
+This project was built to explore modern frontend engineering by combining 3D graphics, animation, and scalable architecture to create an engaging and interactive portfolio experience.
