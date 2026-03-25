@@ -1,6 +1,6 @@
 # Kaavya Gala — Portfolio
 
-> Explore my work, projects, and technical journey through a clean, interactive portfolio.
+> A clean, responsive portfolio designed to showcase projects, skills, and how I approach building systems.
 
 ---
 
@@ -33,7 +33,7 @@ It highlights:
 - technical skills and tools  
 - development approach and design thinking  
 
-The goal is to make it simple for anyone — recruiter, developer, or collaborator — to quickly understand what I build and how I think.
+Unlike basic portfolio websites, this project focuses on structured presentation and usability, making it easy to quickly evaluate projects and technical skills.
 
 ---
 
