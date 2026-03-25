@@ -7,9 +7,7 @@
 ## Preview
 
 <p align="center">
-  <a href="assets/screenshots/preview.mp4">
-    <img src="assets/screenshots/livepreview.png" alt="Portfolio Demo" width="800"/>
-  </a>
+  <img src="assets/preview.gif" alt="Live Preview" width="800"/>
 </p>
 
 <p align="center">
