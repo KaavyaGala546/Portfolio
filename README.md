@@ -1,6 +1,6 @@
 # Kaavya Gala — Portfolio
 
-> A clean, responsive portfolio designed to showcase projects, skills, and how I approach building systems.
+> A modern portfolio built to showcase projects, skills, and how I design and build systems.
 
 ---
 
@@ -39,11 +39,11 @@ Unlike basic portfolio websites, this project focuses on structured presentation
 
 ## Features
 
-- Fully responsive design (mobile, tablet, desktop)  
-- Structured project showcase with GitHub links  
-- Clean and modern UI  
-- Smooth navigation and interaction  
-- Minimal and focused layout  
+- Responsive layout across devices  
+- Project showcase with direct GitHub access  
+- Clean UI with structured navigation  
+- Minimal design focused on readability  
+- Fast and lightweight frontend build   
 
 ---
 
