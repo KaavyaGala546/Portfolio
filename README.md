@@ -7,11 +7,13 @@
 ## Preview
 
 <p align="center">
-  <img src="assets/preview.gif" alt="Live Preview" width="800"/>
+  <a href="assets/screenshots/livepreview.mp4">
+    <img src="assets/preview.gif" alt="Live Preview" width="800"/>
+  </a>
 </p>
 
 <p align="center">
-  ▶️ Click to view full demo
+  ▶️ Click the image to view full demo
 </p>
 
 ---
